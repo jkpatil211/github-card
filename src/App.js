@@ -21,10 +21,10 @@ class App extends React.Component {
   
   render() {
     return (
-      <>
+      <div id="cardContainer">
         <Cardform onSubmit={this.addCard} />
         <Cardlist users={this.state.users} removeCard={this.removeCard} />
-      </>
+      </div>
     )
   }
 }

@@ -1,7 +1,15 @@
+#cardContainer {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    vertical-align: middle;
+    width: 400px;
+}
+
 .card {
     display: inline-block;
     clear: both;
-    width: 55%;
+    width: 97%;
     box-shadow: 0px 2px 10px 0px #000000;
     border-radius: 2px;
     padding: 5px;
@@ -23,9 +31,11 @@
 }
 
 #githubForm {
-    padding: 20px;
-    background-color: rgb(197, 230, 230);
+    padding: 16px;
+    background-color: #e6f1f0;
     color: #000000;
+    text-align: center;
+    box-shadow: 0 1px 2px 0;
 }
 
 .addUser {
