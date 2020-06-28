@@ -7,11 +7,7 @@ import './components.css';
 class App extends React.Component {
 
   state = {
-    users : [
-      // {id: 1, name: 'Jens Kohl', avatar_url: 'https://avatars0.githubusercontent.com/u/40043?v=4', company: '@milchundzucker'},
-      // {id: 2, name: 'Taylor Carpenter', avatar_url: 'https://avatars1.githubusercontent.com/u/26697?v=4', company: '@vulk'},
-      // {id: 3, name: 'Jaykumar Patil', avatar_url: 'https://avatars3.githubusercontent.com/u/6754055?v=4', company: '_vois'}
-    ]
+    users : []
   }
 
   addCard = (user) => {
